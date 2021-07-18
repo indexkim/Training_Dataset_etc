@@ -2,7 +2,7 @@ import cv2
 import shutil
 
 
-def face_detect_cascade(yyyymmdd, path, folder, file, jpg_path):
+def detect_label_cascade(yyyymmdd, path, folder, file, jpg_path):
     refine_path = 'X:/localUser/TrainingData/Refinement/refine_pass/'+yyyymmdd+'_정제완료'
     face_path = 'X:/localUser/TrainingData/Refinement/refine_face'
     jpg_path = path+'/'+folder+'/'+file
